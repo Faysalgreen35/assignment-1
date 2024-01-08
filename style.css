@@ -2,6 +2,13 @@ body {
   font-family: 'Inter', sans-serif;
   font-family: 'Merriweather', serif;
 }
+.contaainer .container-header {
+  max-width: 1320px;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  font-family: 'Merriweather', serif;
+}
 
 /* header related styles */
 
@@ -10,9 +17,13 @@ body {
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0));
   background-image: url('resources/Banner-Image.png');
   background-repeat: no-repeat;
-  text-align: center;
-  margin: 40px 151px 0px 129px;
-  padding: 30px;
+}
+.header .banner {
+  max-width: 1020px;
+  margin: 50px 129px 0 120px;
+  padding: 100px;
+  justify-content: center;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0));
 }
 
 .banner-greeting {
@@ -20,8 +31,8 @@ body {
   text-align: center;
   font-size: 25px;
   font-weight: 400;
-  padding: 22px;
-  line-height: 95px;
+  padding: 2px;
+  line-height: 111px;
 }
 .banner-title {
   color: #fff;
@@ -30,16 +41,14 @@ body {
   font-size: 59px;
   font-style: normal;
   font-weight: 900;
-  line-height: 95px;
-  max-width: 500px;
+  line-height: 90px;
+  max-width: 600px;
   justify-content: center;
-  margin: 0 auto;
-  padding: 66px;
+  margin: 32px auto;
+  padding: 8px;
 }
 
 /* offer section */
-
-/* about section styles */
 
 .about {
   padding: 130px;
@@ -350,6 +359,7 @@ p {
   background: #fff;
   text-align: start;
   margin: 40px 211px 0px 114px;
+  max-width: 1300px;
 }
 .contaainer-red {
   margin-top: 220px;
@@ -387,8 +397,14 @@ p {
   display: flex;
   border-radius: 16px;
   padding: 0px;
-  margin: 3px;
-  gap: 33px;
+  margin: 23px auto;
+  gap: 13px;
+  max-width: 1120px;
+  padding: 0 auto;
+}
+.all-pic img {
+  max-width: 344px;
+  gap: 11px;
 }
 
 /* newsletter-container */
@@ -397,8 +413,9 @@ p {
   border-radius: 16px;
   background: rgba(255, 0, 0, 0.05);
   text-align: center;
-  margin: 40px 211px 0px 134px;
-  padding: 85px;
+  margin: 40px 151px 0px 134px;
+  padding: 85px 0;
+  max-width: 1350px;
 }
 .container-news-black .Newsletter-img {
   margin: 44px auto;
@@ -531,6 +548,8 @@ p {
   width: 64px;
   height: 64px;
   padding: 44px;
+  justify-content: center;
+  gap: 13px;
 }
 
 .footer-last {
