@@ -88,10 +88,11 @@ body {
   font-weight: 700;
   line-height: normal;
 }
-.offer-pic {
-  position: center;
+.offer-pic img {
   width: 600px;
   height: 350px;
+  text-align: center;
+  justify-content: center;
 }
 
 /* midnight section */
